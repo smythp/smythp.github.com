@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patrick Smyth</title>
+    <description>Patrick Smyth is a doctoral student at the CUNY Graduate Center.</description>
+    <link>http://smythp.github.com/</link>
+    <atom:link href="http://smythp.github.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 03 Mar 2016 19:23:46 -0500</pubDate>
+    <lastBuildDate>Thu, 03 Mar 2016 19:23:46 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Five Underrated Features in Zotero</title>
+        <description>&lt;p&gt;Zotero is an excellent citation manager, but it can be so much more. These underused features allow Zotero users to go beyond simply creating bibliographies, transforming Zotero into a platform for reading, visualizing, and storing academic work.&lt;/p&gt;
+
+&lt;p&gt;Most Zotero users know that the citation manager can &lt;a href=&quot;https://www.zotero.org/support/getting_stuff_into_your_library&quot;&gt;store local copies of journal articles&lt;/a&gt; accessed on repositories such as JSTOR and Project MUSE. However, Zotero can also be used to store and retrieve ebooks that have been saved to your hard drive. In Zotero Standalone, simply right click an entry for a book and select Add Attachment &amp;gt; Attach Stored Copy of File. Navigate to the location where your ebook is saved and double-click to make the book a permanent part of your Zotero library. The ebook will be stored in a separate folder that is backed up along with your Zotero library, so with this feature you can create an ebook collection that moves with you from computer to computer. For an even stronger collection, use an ebook manager such as &lt;a href=&quot;http://calibre-ebook.com/&quot;&gt;Calibre&lt;/a&gt; to convert your ebook to your desired format before storing it in Zotero.&lt;/p&gt;
+
+&lt;p&gt;This feature is also a great way to keep track of your own work. Simply create an entry for your paper or publication, and attach a .docx or .pdf of your writing. Whenever you &lt;a href=&quot;https://www.zotero.org/support/zotero_data&quot;&gt;back up your Zotero library&lt;/a&gt;, your past work will also be saved.&lt;/p&gt;
+
+&lt;h3 id=&quot;create-a-timeline-of-your-past-work&quot;&gt;Create a Timeline of Your Past Work&lt;/h3&gt;
+
+&lt;p&gt;Curious about what you were working on back in 2011? Care to see how your academic interests have evolved over the years? Zotero has a built-in timeline feature that will display a visualization of all your interactions with the program over the years. Simply select the collection you would like to visualize (you may want to try the top-level My Library view first) and select Tools &amp;gt; Create Timeline from the menu bar. Navigate the timeline by dragging the hand icon from left to right.&lt;/p&gt;
+
+&lt;p&gt;By default, the timeline will display the dates of publication of entries you’ve stored. While this may provide a useful insight into the periods your work is drawn from, you may also wish to sort these entries by the dates they were added to your collection. To do this, simply change the item in the Date Type box on the bottom of the screen from Date Published to Date Added.&lt;/p&gt;
+
+&lt;h3 id=&quot;organize-your-library-with-notes-tags-and-related-tabs&quot;&gt;Organize your Library with Notes, Tags, and Related Tabs&lt;/h3&gt;
+
+&lt;p&gt;The underused Notes, Tags, and Related tabs that appear on the right pane when you select an entry allow you to store your thoughts on a text for later and draw parallels across collections. While reading books or articles, I often jot down reactions and observations in Microsoft Word. To make sure I have access to these notes in one central location, I paste these reactions into the form provided under the Notes tab. That way, when I return to the collection weeks, months, or years later, I don’t have to search for a hard-to-find Word document.&lt;/p&gt;
+
+&lt;p&gt;Although I do not use the Tags and Related tabs as frequently, they can be useful when creating categories that work across collections. For example, I use a “To Read” tag to denote books and articles that I know I should examine more carefully in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;view-your-zotero-library-by-tablet-or-mobile&quot;&gt;View Your Zotero Library by Tablet or Mobile&lt;/h3&gt;
+
+&lt;p&gt;Although it takes some setting up, apps such as Zotero Reader and ZotPad allow you to access your Zotero library even when you’re away from your laptop. This can be invaluable for summer reading, preparing for classes, or quickly refreshing your memory of a colleague’s work at a conference. Check out these tutorials to get yourself up and running on your favorite device:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zotero.org/support/mobile&quot;&gt;Zotero Mobile Documentation&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.zotpad.com/sites/default/files/UserManualWeb.pdf&quot;&gt;ZotPad Manual&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.hastac.org/blogs/craigeley/2013/02/25/ipad-workflow-zotero-zotfile-zotpad&quot;&gt;iPad Workflow: Zotero + Zotfile + ZotPad&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;h3&gt; Zotero with Plugins and Add-ons&lt;/h3&gt;&lt;br /&gt;
+
+An active community of developers has created a &lt;a href=&quot;https://www.zotero.org/support/plugins&quot;&gt;variety of plugins&lt;/a&gt; that can extend Zotero’s functionality. Whether you want to &lt;a href=&quot;https://code.google.com/p/delicious-library-export/&quot;&gt;import items from Delicious into Zotero&lt;/a&gt;, &lt;a href=&quot;http://wordpress.org/plugins/zotpress/&quot;&gt;integrate Zotero with WordPress&lt;/a&gt;, &lt;a href=&quot;http://chrisjr.github.io/papermachines/&quot;&gt;create advanced visualizations&lt;/a&gt;, or simply &lt;a href=&quot;&amp;quot;https://forums.zotero.org/discussion/18166/zotero-item-history-plugin/&quot;&gt;spruce up Zotero’s GUI&lt;/a&gt;, these add-ons can turn Zotero into a versatile tool for saving, displaying, and exporting data.&lt;br /&gt;&lt;br /&gt;
+
+See also:&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.zotero.org/support/tips_and_tricks&quot;&gt;Zotero Tips and Tricks&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://geekandgirliestuff.blogspot.com/2013/03/going-all-in-with-zotero-zotpad-and.html&quot;&gt;Geek and Girlie Stuff Guide to Zotero&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://chronicle.com/blogs/profhacker/zotero-vs-endnote/33157&quot;&gt;Zotero vs. Endnote&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://smythp.github.com/underrated_zotero/</link>
+        <guid isPermaLink="true">http://smythp.github.com/underrated_zotero/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 02 Mar 2016 14:44:07 -0500</pubDate>
+        <link>http://smythp.github.com/jekyll/update/2016/03/02/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://smythp.github.com/jekyll/update/2016/03/02/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

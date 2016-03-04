@@ -1,0 +1,145 @@
+  .small-text {
+    font-size: .7em;
+  }
+
+.jumbotron-causeway {
+    position: relative;
+    background: #000 url("../causeway-cropped-2.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.btn-linked { 
+    color: #FFF;
+    background-color: #000080; 
+} 
+ 
+.btn-linked:hover, 
+.btn-linked:focus, 
+.btn-linked:active, 
+.btn-linked.active, 
+.open .dropdown-toggle.btn-linked { 
+  color: #ffffff; 
+  background-color: #49247A; 
+} 
+ 
+.btn-linked:active, 
+.btn-linked.active, 
+.open .dropdown-toggle.btn-linked { 
+  background-image: none; 
+} 
+ 
+.btn-linked.disabled, 
+.btn-linked[disabled], 
+fieldset[disabled] .btn-linked, 
+.btn-linked.disabled:hover, 
+.btn-linked[disabled]:hover, 
+fieldset[disabled] .btn-linked:hover, 
+.btn-linked.disabled:focus, 
+.btn-linked[disabled]:focus, 
+fieldset[disabled] .btn-linked:focus, 
+.btn-linked.disabled:active, 
+.btn-linked[disabled]:active, 
+fieldset[disabled] .btn-linked:active, 
+.btn-linked.disabled.active, 
+.btn-linked[disabled].active, 
+fieldset[disabled] .btn-linked.active { 
+  background-color: #007BB5; 
+} 
+ 
+.btn-linked .badge { 
+  color: #007BB5; 
+  background-color: #ffffff; 
+}
+
+.btn-twit { 
+  color: #000; 
+  background-color: #55ACEE; 
+} 
+ 
+.btn-twit:hover, 
+.btn-twit:focus, 
+.btn-twit:active, 
+.btn-twit.active, 
+.open .dropdown-toggle.btn-twit { 
+  color: #000000; 
+  background-color: #ee9755; 
+} 
+ 
+.btn-twit:active, 
+.btn-twit.active, 
+.open .dropdown-toggle.btn-twit { 
+  background-image: none; 
+} 
+ 
+.btn-twit.disabled, 
+.btn-twit[disabled], 
+fieldset[disabled] .btn-twit, 
+.btn-twit.disabled:hover, 
+.btn-twit[disabled]:hover, 
+fieldset[disabled] .btn-twit:hover, 
+.btn-twit.disabled:focus, 
+.btn-twit[disabled]:focus, 
+fieldset[disabled] .btn-twit:focus, 
+.btn-twit.disabled:active, 
+.btn-twit[disabled]:active, 
+fieldset[disabled] .btn-twit:active, 
+.btn-twit.disabled.active, 
+.btn-twit[disabled].active, 
+fieldset[disabled] .btn-twit.active { 
+  background-color: #55ACEE; 
+} 
+ 
+.btn-twit .badge { 
+  color: #55ACEE; 
+  background-color: #000000; 
+}
+
+.btn-git { 
+  color: #FFFFFF; 
+  background-color: #000000;
+} 
+ 
+.btn-git:hover, 
+.btn-git:focus, 
+.btn-git:active, 
+.btn-git.active, 
+.open .dropdown-toggle.btn-git { 
+  color: #000000; 
+  background-color: #FFFFFF; 
+} 
+ 
+.btn-git:active, 
+.btn-git.active, 
+.open .dropdown-toggle.btn-git { 
+  background-image: none; 
+} 
+ 
+.btn-git.disabled, 
+.btn-git[disabled], 
+fieldset[disabled] .btn-git, 
+.btn-git.disabled:hover, 
+.btn-git[disabled]:hover, 
+fieldset[disabled] .btn-git:hover, 
+.btn-git.disabled:focus, 
+.btn-git[disabled]:focus, 
+fieldset[disabled] .btn-git:focus, 
+.btn-git.disabled:active, 
+.btn-git[disabled]:active, 
+fieldset[disabled] .btn-git:active, 
+.btn-git.disabled.active, 
+.btn-git[disabled].active, 
+fieldset[disabled] .btn-git.active { 
+  background-color: #333333; 
+} 
+ 
+.btn-git .badge { 
+  color: #333333; 
+  background-color: #FFFFFF; 
+}
+
+.article-font {
+ font-size: 16px;
+}
