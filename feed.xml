@@ -3,10 +3,10 @@
   <channel>
     <title>Patrick Smyth</title>
     <description>Patrick Smyth is a doctoral student at the CUNY Graduate Center.</description>
-    <link>http://smythp.github.com/</link>
-    <atom:link href="http://smythp.github.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Mar 2016 19:23:46 -0500</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 19:23:46 -0500</lastBuildDate>
+    <link>localhost:4000/</link>
+    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 03 Mar 2016 23:20:57 -0500</pubDate>
+    <lastBuildDate>Thu, 03 Mar 2016 23:20:57 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -35,21 +35,21 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.zotero.org/support/mobile&quot;&gt;Zotero Mobile Documentation&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://www.zotpad.com/sites/default/files/UserManualWeb.pdf&quot;&gt;ZotPad Manual&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.hastac.org/blogs/craigeley/2013/02/25/ipad-workflow-zotero-zotfile-zotpad&quot;&gt;iPad Workflow: Zotero + Zotfile + ZotPad&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.hastac.org/blogs/craigeley/2013/02/25/ipad-workflow-zotero-zotfile-zotpad&quot;&gt;iPad Workflow: Zotero + Zotfile + ZotPad&lt;/a&gt;
 
-&lt;h3&gt; Zotero with Plugins and Add-ons&lt;/h3&gt;&lt;br /&gt;
+&lt;h3&gt; Zotero with Plugins and Add-ons&lt;/h3&gt;
 
 An active community of developers has created a &lt;a href=&quot;https://www.zotero.org/support/plugins&quot;&gt;variety of plugins&lt;/a&gt; that can extend Zotero’s functionality. Whether you want to &lt;a href=&quot;https://code.google.com/p/delicious-library-export/&quot;&gt;import items from Delicious into Zotero&lt;/a&gt;, &lt;a href=&quot;http://wordpress.org/plugins/zotpress/&quot;&gt;integrate Zotero with WordPress&lt;/a&gt;, &lt;a href=&quot;http://chrisjr.github.io/papermachines/&quot;&gt;create advanced visualizations&lt;/a&gt;, or simply &lt;a href=&quot;&amp;quot;https://forums.zotero.org/discussion/18166/zotero-item-history-plugin/&quot;&gt;spruce up Zotero’s GUI&lt;/a&gt;, these add-ons can turn Zotero into a versatile tool for saving, displaying, and exporting data.&lt;br /&gt;&lt;br /&gt;
 
-See also:&lt;br /&gt;&lt;br /&gt;
+See also:&lt;br /&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.zotero.org/support/tips_and_tricks&quot;&gt;Zotero Tips and Tricks&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://geekandgirliestuff.blogspot.com/2013/03/going-all-in-with-zotero-zotpad-and.html&quot;&gt;Geek and Girlie Stuff Guide to Zotero&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://chronicle.com/blogs/profhacker/zotero-vs-endnote/33157&quot;&gt;Zotero vs. Endnote&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Mar 2016 00:00:00 -0500</pubDate>
-        <link>http://smythp.github.com/underrated_zotero/</link>
-        <guid isPermaLink="true">http://smythp.github.com/underrated_zotero/</guid>
+        <link>localhost:4000/underrated_zotero/</link>
+        <guid isPermaLink="true">localhost:4000/underrated_zotero/</guid>
         
         
       </item>
@@ -72,8 +72,8 @@ See also:&lt;br /&gt;&lt;br /&gt;
 
 </description>
         <pubDate>Wed, 02 Mar 2016 14:44:07 -0500</pubDate>
-        <link>http://smythp.github.com/jekyll/update/2016/03/02/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://smythp.github.com/jekyll/update/2016/03/02/welcome-to-jekyll.html</guid>
+        <link>localhost:4000/jekyll/update/2016/03/02/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">localhost:4000/jekyll/update/2016/03/02/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
