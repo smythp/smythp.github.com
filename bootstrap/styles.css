@@ -22,7 +22,7 @@
 .btn-linked.active, 
 .open .dropdown-toggle.btn-linked { 
   color: #ffffff; 
-  background-color: #49247A; 
+  background-color: #808000; 
 } 
  
 .btn-linked:active, 
@@ -164,7 +164,8 @@ fieldset[disabled] .btn-git.active {
     }
 
     body {
-      padding:5px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
@@ -174,3 +175,6 @@ fieldset[disabled] .btn-git.active {
     }
 }
 
+p {
+    padding-bottom: 5px;
+}
