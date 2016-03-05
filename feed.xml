@@ -5,9 +5,73 @@
     <description>Patrick Smyth is a doctoral student at the CUNY Graduate Center.</description>
     <link>localhost:4000/</link>
     <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Mar 2016 01:14:55 -0500</pubDate>
-    <lastBuildDate>Fri, 04 Mar 2016 01:14:55 -0500</lastBuildDate>
+    <pubDate>Fri, 04 Mar 2016 20:42:40 -0500</pubDate>
+    <lastBuildDate>Fri, 04 Mar 2016 20:42:40 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Use Text Expanders for More Efficient Grading</title>
+        <description>&lt;p&gt;If you grade papers (or proofread) frequently, you probably find yourself writing the same comments over and over:&lt;/p&gt;
+&lt;ul style=&quot;list-style-type:none&quot;&gt;
+&lt;li&gt;“Use a synonym here to avoid repetition.”&lt;/li&gt;
+&lt;li&gt;“Periods should be inside quotation marks.”&lt;/li&gt;
+&lt;li&gt;“I found this section a little unclear. Could you elaborate?”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When encountering similar mistakes over dozens of papers, I tend to fall into patterns, using certain phrases and terms to point out and explain problems. After all, there are only so many ways one can indicate that book titles should be italicized, or that “alright” should be “all right.” This often means that I will write a phrase such as “Use a synonym to avoid repetition” in twenty separate papers, which is itself something of a repetitive exercise.&lt;/p&gt;
+&lt;p&gt;Because I receive, grade, and return papers electronically, I’ve found a method that alleviates some of the tedium of repeating stock phrases over and over. Text expanders are programs that automatically turn small snippets of text (such as “syn1”) to larger phrases (such as “Use a synonym to avoid repetition.”) By loading up a text expander with a library of frequently-used comments, a essay grader can substantially reduce the amount of typing necessary to leave a comment.&lt;/p&gt;
+&lt;p&gt;Using a text expander to aid in grading has some substantial advantages. Because leaving certain comments becomes easier, one is less tempted to leave cryptic marks (“?” or “!”) or simply underline text to indicate mistakes. While these corrective marks might seem clear to teachers, they are often baffling to students who might not be familiar with the underlying principles to which these marks refer. By freeing up effort usually spent on addressing common mistakes, one often finds it easier to comment on an essay more holistically, responding to the content of the paper rather than focusing exclusively on form.&lt;/p&gt;
+&lt;p&gt;For my own grading, the free version of the &lt;a href=&quot;http://www.phraseexpress.com/&quot;&gt;PhraseExpress&lt;/a&gt; text expander is more than adequate, although faster and more feature-laden expanders such as &lt;a href=&quot;http://lifehacker.com/238306/lifehacker-code-texter-windows&quot;&gt;Texter&lt;/a&gt; also exist. In Windows, after installing PhraseExpress, double click its icon in the system tray to bring it up. Hit File &amp;gt; New &amp;gt; Local phrase file to create a new set of phrases that can be backed up and transferred between computers. Then hit CTRL-N to create a new comment template. Type the full version of the comment in the “Phrase Content” box, then add a shortcut phrase (such as “syn1”) to the Autotext box. Hit OK, and repeat for all your frequently used comments. Remember that the short phrase you enter in Autotext should be something you would only type deliberately, or else you will trigger the text expansion automatically.&lt;/p&gt;
+&lt;p&gt;Now, as you enter comments in paper, simply type your short Autotext phrase (“syn1”) to automatically generate the longer comment (“Use a synonym to avoid repetition”). I usually add different versions of the same general comment for use within the same paper—“syn2” might fill in as “Use a different word here.” You might also load up your expander with some stock examples—“The boy throws the ball.”—to illuminate concepts such as subject-verb agreement or parallel structure.&lt;/p&gt;
+&lt;p&gt;Text expanders can also be invaluable if you often switch between email signatures, such as when switching between administrative and faculty roles.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Mar 2016 00:00:00 -0500</pubDate>
+        <link>localhost:4000/teaching/2016/03/04/expanders.html</link>
+        <guid isPermaLink="true">localhost:4000/teaching/2016/03/04/expanders.html</guid>
+        
+        
+        <category>teaching</category>
+        
+      </item>
+    
+      <item>
+        <title>Eight Reasons to Grade Essays Electronically</title>
+        <description>&lt;div class=&quot;entry-content&quot;&gt;
+		&lt;p&gt;I know, I know, you have a system. But here are eight reasons to go paperless and do your grading electronically.&lt;/p&gt;
+&lt;h3&gt;Leave a Paper Trail by Going Paperless&lt;/h3&gt;
+&lt;p&gt;By having students submit assignments via email, Dropbox, or Blackboard, you automatically have documentation indicating when (or if) students have turned in their work. This can head off many potential disputes and misunderstandings.&lt;/p&gt;
+&lt;h3&gt;Your Handwriting Is Terrible&lt;/h3&gt;
+&lt;div id=&quot;attachment_38&quot; style=&quot;width: 310px;float: right;margin: 0 0 10px 10px;&quot;&gt;&lt;a href=&quot;http://www.digitalscholar.net/wp-content/uploads/2014/06/elder_fu.png&quot;&gt;&lt;img class=&quot;size-medium wp-image-38&quot; alt=&quot;Elder Futhark&quot; src=&quot;http://www.digitalscholar.net/wp-content/uploads/2014/06/elder_fu-300x102.png&quot; width=&quot;300&quot; height=&quot;102&quot; /&gt;&lt;/a&gt;&lt;center&gt;&lt;p class=&quot;small-text&quot; style=&quot;margin: 3px;&quot;&gt;If your writing starts looking like this, break out the keyboard.&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;p&gt;You might pride yourself on your impeccable penmanship, but even &lt;a href=&quot;http://en.wikipedia.org/wiki/Wang_Xizhi&quot;&gt;Wang Xizhi&lt;/a&gt; might become indecipherable after marking up his 39th essay. Having a student approach you to clarify what you’ve written can be embarrassing, and some might not even bother to parse your chicken scratch.&lt;/p&gt;
+&lt;h3&gt;Take Control of Your Feedback&lt;/h3&gt;
+&lt;p&gt;Marking a paper essay involves cramming comments into margins and between lines. Sometimes serendipity takes over and you just manage to explain subject-verb agreement in the space allotted. More likely, you’ll be forced to cut off something useful, or write so small that you’re flirting with indecipherability.&lt;/p&gt;
+&lt;p&gt;You might say that paper grading helps instructors resist the temptation to leave novel-length comments, which are impractical and time-consuming. I would argue that some points need deeper explication, and others (“This phrase is cliché.”) might benefit from a bit of finesse in their delivery. When you grade electronically, the length of your comments is not predetermined, and you can go into as much or as little detail as needed in a section.&lt;/p&gt;
+&lt;h3&gt;Provide Links and Supporting Documents&lt;/h3&gt;
+&lt;p&gt;Sometimes a well-chosen link can be an invaluable supplement to a comment. By giving feedback electronically you can add links to library books, articles, word definitions, or grammar and style guidelines much more readily than you can with pen and paper. I sometimes also add additional style and grammar documentation after my final comments if particular issues cropped up frequently in the paper.&lt;/p&gt;
+&lt;h3&gt;Students (And Trees) Prefer Electronic Submissions&lt;/h3&gt;
+&lt;div style=&quot;width: 310px;float: right; margin: 0 0 5 0;&quot;&gt; &lt;a href=&quot;http://www.digitalscholar.net/wp-content/uploads/2014/06/happy-tree.jpg&quot;&gt;&lt;img class=&quot;size-medium wp-image-37&quot; alt=&quot;Poor little tree&quot; src=&quot;http://www.digitalscholar.net/wp-content/uploads/2014/06/happy-tree-300x205.jpg&quot; width=&quot;300&quot; height=&quot;205&quot; /&gt;&lt;/a&gt;&lt;center&gt;&lt;p class=&quot;small-text&quot;&gt;What did this poor tree ever do to you?&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;p&gt;Anyone who has wrestled with an ornery printer knows that these devices are a fickle breed, liable to become unresponsive, jam, or run out of “cyan ink” in a moment of crisis. By allowing students to send their papers directly to you, you’re making their lives slightly easier. You’re also saving paper, which is made out of the bodies of friendly trees.&lt;/p&gt;
+&lt;h3&gt;Streamline the Process&lt;/h3&gt;
+&lt;p&gt;There are a number of tips and tricks that can save you time and effort when grading essays electronically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.digitalscholar.net/?p=24&quot;&gt;Use text expanders to avoid costly repetition.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://shaunakelly.com/word/sharing/howtrackchangesworks.html&quot;&gt;Use Track Changes in MS Word to create readable markup.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://suefrantz.com/2011/02/17/grading-electronically-tips-tricks-and-shortcuts/&quot;&gt;Use keyboard shortcuts and Adobe Acrobat to help with electronic grading.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Teach Your Students New Skills&lt;/h3&gt;
+&lt;p&gt;Many students have never encountered tools such as Dropbox or MS Word’s Track Changes before and will benefit from a working knowledge of how they function. Track changes, in particular, is used in a number of office environments, and Dropbox and other cloud storage services are becoming increasingly prevalent.&lt;/p&gt;
+&lt;h3&gt;Access Reference Materials and Check for Plagiarism&lt;/h3&gt;
+&lt;p&gt;Sometimes it helps to double check the spelling of a word or to refresh your memory on an obscure grammar rule or citation guideline. When working electronically, it becomes easier to reference these materials and incorporate them into your comments. Finally, in cases of suspected plagiarism, you can copy sections of a paper into a tool such as &lt;a href=&quot;http://www.copyscape.com/signup.php?pro=1&quot;&gt;Copyscape Premium&lt;/a&gt;, a tool that is more difficult to access when working from a printout.&lt;/p&gt;
+			&lt;/div&gt;
+&lt;!-- .entry-content --&gt;
+</description>
+        <pubDate>Fri, 04 Mar 2016 00:00:00 -0500</pubDate>
+        <link>localhost:4000/teaching/2016/03/04/electronically.html</link>
+        <guid isPermaLink="true">localhost:4000/teaching/2016/03/04/electronically.html</guid>
+        
+        
+        <category>teaching</category>
+        
+      </item>
     
       <item>
         <title>Five Underrated Features in Zotero</title>
