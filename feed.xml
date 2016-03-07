@@ -3,10 +3,10 @@
   <channel>
     <title>Patrick Smyth</title>
     <description>Patrick Smyth is a doctoral student at the CUNY Graduate Center.</description>
-    <link>localhost:4000/</link>
-    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Mar 2016 23:11:58 -0500</pubDate>
-    <lastBuildDate>Sat, 05 Mar 2016 23:11:58 -0500</lastBuildDate>
+    <link>smythp.com/</link>
+    <atom:link href="smythp.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 07 Mar 2016 13:32:04 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Mar 2016 13:32:04 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -25,8 +25,8 @@
 &lt;p&gt;Text expanders can also be invaluable if you often switch between email signatures, such as when switching between administrative and faculty roles.&lt;/p&gt;
 </description>
         <pubDate>Fri, 04 Mar 2016 00:00:00 -0500</pubDate>
-        <link>localhost:4000/teaching/2016/03/04/expanders.html</link>
-        <guid isPermaLink="true">localhost:4000/teaching/2016/03/04/expanders.html</guid>
+        <link>smythp.com/teaching/2016/03/04/expanders.html</link>
+        <guid isPermaLink="true">smythp.com/teaching/2016/03/04/expanders.html</guid>
         
         
         <category>teaching</category>
@@ -65,8 +65,8 @@
 &lt;!-- .entry-content --&gt;
 </description>
         <pubDate>Fri, 04 Mar 2016 00:00:00 -0500</pubDate>
-        <link>localhost:4000/teaching/2016/03/04/electronically.html</link>
-        <guid isPermaLink="true">localhost:4000/teaching/2016/03/04/electronically.html</guid>
+        <link>smythp.com/teaching/2016/03/04/electronically.html</link>
+        <guid isPermaLink="true">smythp.com/teaching/2016/03/04/electronically.html</guid>
         
         
         <category>teaching</category>
@@ -112,8 +112,8 @@ See also:&lt;br /&gt;
 &lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Mar 2016 00:00:00 -0500</pubDate>
-        <link>localhost:4000/underrated_zotero/</link>
-        <guid isPermaLink="true">localhost:4000/underrated_zotero/</guid>
+        <link>smythp.com/underrated_zotero/</link>
+        <guid isPermaLink="true">smythp.com/underrated_zotero/</guid>
         
         
       </item>
@@ -139,8 +139,8 @@ See also:&lt;br /&gt;
 &lt;p&gt;Good learners make great teachers, and a number of sites have popped up in recent years that allow easy access to new skills and training. One of my personal favorites is Khan Academy, which offers videos and tutorials on a wide variety of topics. Khan Academy is slowly transforming into a digital learning platform that offers assessment and live tutoring in addition to video lectures. This trend is being followed by other digital learning platforms, including Apple&amp;#8217;s &amp;lt;a href=&quot;http://www.apple.com/apps/itunes-u/?cid=wwa-us-kwg-features-com&amp;amp;siclientid=6381&amp;amp;sessguid=83aba7ce-ceae-4f3a-ab80-eff9d67c80a0&amp;amp;userguid=83aba7ce-ceae-4f3a-ab80-eff9d67c80a0&amp;amp;permguid=83aba7ce-ceae-4f3a-ab80-eff9d67c80a0&quot;&amp;gt;iTunes U. &lt;a href=&quot;http://www.ted.com/talks&quot;&gt;TED Talks&lt;/a&gt; is another accessible way to stay up-to-date on the latest developments inside and outside academia.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Nov 2015 00:00:00 -0500</pubDate>
-        <link>localhost:4000/jekyll/update/2015/11/22/killer-apps.html</link>
-        <guid isPermaLink="true">localhost:4000/jekyll/update/2015/11/22/killer-apps.html</guid>
+        <link>smythp.com/jekyll/update/2015/11/22/killer-apps.html</link>
+        <guid isPermaLink="true">smythp.com/jekyll/update/2015/11/22/killer-apps.html</guid>
         
         
         <category>jekyll</category>
@@ -175,8 +175,8 @@ See also:&lt;br /&gt;
 
 </description>
         <pubDate>Thu, 06 Aug 2015 00:00:00 -0400</pubDate>
-        <link>localhost:4000/underrated_zotero/</link>
-        <guid isPermaLink="true">localhost:4000/underrated_zotero/</guid>
+        <link>smythp.com/underrated_zotero/</link>
+        <guid isPermaLink="true">smythp.com/underrated_zotero/</guid>
         
         
       </item>
