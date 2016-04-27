@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Using Elpy with pyenv in Emacs</title>
+  <meta name="description" content="I use Emacs to write code in Python. As someone who prefers to use the keyboard over the mouse and who doesn’t mind memorizing key combinations, I’ve found t...">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="/bootstrap/styles.css">
+
+  <link rel="canonical" href="https://www.smythp.com/emacs/python/2016/04/27/pyenv-elpy.html">
+  
+  <link rel="alternate" type="application/rss+xml" title="Patrick Smyth" href="https://www.smythp.com/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default">
+    <a href="/index.html" class="navbar-brand">
+      Patrick Smyth
+    </a>
+    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-left">
+	<li><a href="/index.html">Home</a> </li>
+	<li><a href="/about">About</a> </li>
+	<li><a href="https://github.com/smythp/cv">CV</a> </li>
+	<li><a href="/archive">Blog</a> </li>
+	<li><a href="/form">Contact</a> </li>
+	<li><a href="/feed.xml">RSS</a></li>
+      </ul>
+    </div>
+    </div>
+
+
+
+        
+<img class="intro-img" src="/images/elpy.png">
+
+
+
+<div class="container">
+
+<br>
+  <h2>
+    Using Elpy with pyenv in Emacs
+    <small>&nbsp;&nbsp;
+	<time class="pubdate updated" datetime="2016-04-27 00:00:00 -0400" itemprop="dateCreated">27 April, 2016</time>
+    </small>
+    </h2>
+
+
+
+
+  <p>I use <a href="https://www.gnu.org/software/emacs/">Emacs</a> to write code in Python. As someone who prefers to use the keyboard over the mouse and who doesn’t mind memorizing key combinations, I’ve found that Emacs is great for managing both small scripts and large projects. Until recently, I’d used the built-in Python mode that comes with Emacs, which did a decent job handling indentation, whitespace, and some syntax highlighting. While I didn’t have fancy code completion, the built-in dabbrev-expand command in Emacs, which completes words based on context, did a decent job in lieu of real completion. However, I always knew there were good libraries for syntax highlighting, linting, completion, refactoring, project management, and navigation out there, and recently I decided to take the plunge and get everything set up.</p>
+
+<p>I use <a href="https://github.com/yyuu/pyenv">pyenv</a> to manage Python versions, allowing me to quickly switch between 2.7, 3.5, and Anaconda on a project-by-project basis, and any solution I came up with would have to work seamlessly with pyenv. I’d also had the Elpy framework recommended to me as a good library for managing IDE features in Emacs. This post will walk you through the steps of getting Elpy to work with pyenv, and I’ll also talk briefly about the advantages features you’ll get using Elpy over the default Python mode in Emacs.</p>
+
+<h3 id="installing-pyenv-and-elpy">Installing pyenv and Elpy</h3>
+
+<p>First, <a href="https://github.com/yyuu/pyenv#installation">install pyenv</a>, if you haven’t already. I also recommend the <a href="https://github.com/yyuu/pyenv-virtualenv#installation">pyenv-virtualenv plugin</a>, which lets you manage virtual environments using pyenv.</p>
+
+<p>Once you have pyenv set up and have installed a new version of Python with the <code class="highlighter-rouge">pyenv install &lt;version&gt;</code> command, you’re ready to <a href="https://github.com/jorgenschaefer/elpy#quick-installation">install elpy</a>:</p>
+
+<p>In the command line:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>pip install jedi flake8 yapf autopep8 importmagic
+</code></pre>
+</div>
+
+<p>(You can also Install Rope instead of Jedi.)</p>
+
+<p>Paste this code into your scratch buffer and evaluate it:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>(require 'package)
+(add-to-list 'package-archives
+						 '("elpy" . "https://jorgenschaefer.github.io/packages/"))
+</code></pre>
+</div>
+
+<p>And run:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>M-x package-refresh-contents
+M-x package-install RET elpy RET
+</code></pre>
+</div>
+
+<p>To complete the elpy installation, add this code to your .emacs:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>(package-initialize)
+(elpy-enable)
+</code></pre>
+</div>
+
+<h3 id="getting-elpy-to-play-nice-with-pyenv">Getting Elpy to play nice with pyenv</h3>
+
+<p>You have Elpy and pyenv installed, but Elpy is still going to try to use your system Python, which isn’t what you want. We’re going to install a package called pyenv-mode that will force Emacs to recognize our pyenv installation. Run</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>M-x package-install RET pyenv-mode
+</code></pre>
+</div>
+
+<p>and add</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>(pyenv-mode)
+</code></pre>
+</div>
+
+<p>to your .emacs file. Now you can run</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>M-x elpy-config
+</code></pre>
+</div>
+
+<p>To check that Flask is using the correct version and path for pyenv.</p>
+
+<p>If you’d like to go one step further and have Elpy switch to a local version of pyenv when you enter a project folder, put this function in your .emacs:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>(defun ssbb-pyenv-hook ()
+"Automatically activates pyenv version if .python-version file exists."
+(f-traverse-upwards
+(lambda (path)
+  (let ((pyenv-version-path (f-expand ".python-version" path)))
+		(if (f-exists? pyenv-version-path)
+				(pyenv-mode-set (s-trim (f-read-text pyenv-version-path 'utf-8))))))))
+
+(add-hook 'find-file-hook 'ssbb-pyenv-hook)
+</code></pre>
+</div>
+
+<p>Finally, to clean up whitespace on a save, add:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>(add-hook 'before-save-hook 'whitespace-cleanup)
+</code></pre>
+</div>
+
+<p>Note that this setup runs into trouble if you use the same instance of Emacs to visit local projects that have incompatible versions. If you run Emacs from a server or frequently work across different versions in this way, you may want to manually control which pyenv version is active to avoid his problem. Instead of using the function above, just call</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>M-x pyenv-mode-set
+</code></pre>
+</div>
+
+<p>and type the version of Python you’d like Emacs to use. This isn’t as convenient, but it’s more stable.</p>
+
+
+
+</div>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+
+    <br><br><br>
+
+
+  </body>
+
+</html>
