@@ -61,9 +61,9 @@
 
 
 
-  <p>I use <a href="https://www.gnu.org/software/emacs/">Emacs</a> to write code in Python. As someone who prefers to use the keyboard over the mouse and who doesn’t mind memorizing key combinations, I’ve found that Emacs is great for managing both small scripts and large projects. Until recently, I’d used the built-in Python mode that comes with Emacs, which did a decent job handling indentation, whitespace, and some syntax highlighting. While I didn’t have fancy code completion, the built-in dabbrev-expand command in Emacs, which completes words based on context, did a decent job in lieu of real completion. However, I always knew there were good libraries for syntax highlighting, linting, completion, refactoring, project management, and navigation out there, and recently I decided to take the plunge and get everything set up.</p>
+  <p>I use <a href="https://www.gnu.org/software/emacs/">Emacs</a> to write code in Python. As someone who prefers to use the keyboard over the mouse and who doesn’t mind memorizing key combinations, I’ve found that Emacs is great for managing both small scripts and large projects. Until recently, I’d used the built-in Python mode that comes with Emacs, which did a decent job of handling indentation, whitespace, and some syntax highlighting. While I didn’t have fancy code completion, the built-in dabbrev-expand command in Emacs, which completes words based on context, did a decent job in lieu of real completion. However, I always knew there were good libraries for syntax highlighting, linting, completion, refactoring, project management, and navigation out there, and recently I decided to take the plunge and get a proper Python programming environment set up in Emacs.</p>
 
-<p>I use <a href="https://github.com/yyuu/pyenv">pyenv</a> to manage Python versions, allowing me to quickly switch between 2.7, 3.5, and Anaconda on a project-by-project basis, and any solution I came up with would have to work seamlessly with pyenv. I’d also had the Elpy framework recommended to me as a good library for managing IDE features in Emacs. This post will walk you through the steps of getting Elpy to work with pyenv, and I’ll also talk briefly about the advantages features you’ll get using Elpy over the default Python mode in Emacs.</p>
+<p>I use <a href="https://github.com/yyuu/pyenv">pyenv</a> to manage Python versions, allowing me to quickly switch between 2.7, 3.5, and Anaconda on a project-by-project basis. Any solution I came up with, therefore, would have to work seamlessly with pyenv. I’d also had the Elpy framework recommended to me as a good library for managing IDE features in Emacs. This post will walk you through the steps of getting Elpy to work with pyenv, and by the end you’ll be able to switch between Python versions while also taking advantage of the cool IDE features afforded by Elpy.</p>
 
 <h3 id="installing-pyenv-and-elpy">Installing pyenv and Elpy</h3>
 
@@ -143,7 +143,7 @@ M-x package-install RET elpy RET
 </code></pre>
 </div>
 
-<p>Note that this setup runs into trouble if you use the same instance of Emacs to visit local projects that have incompatible versions. If you run Emacs from a server or frequently work across different versions in this way, you may want to manually control which pyenv version is active to avoid his problem. Instead of using the function above, just call</p>
+<p>Note that this setup runs into trouble if you use the same instance of Emacs to visit local projects that have incompatible versions. If you run Emacs from a server or frequently work across different versions in this way, you may want to manually control which pyenv version is active to avoid this problem. Instead of using the function above, just call</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>M-x pyenv-mode-set
 </code></pre>
