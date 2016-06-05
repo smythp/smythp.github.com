@@ -5,9 +5,66 @@
     <description>Patrick Smyth is a doctoral student at the CUNY Graduate Center.</description>
     <link>https://www.smythp.com/</link>
     <atom:link href="https://www.smythp.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 May 2016 13:11:10 -0400</pubDate>
-    <lastBuildDate>Fri, 20 May 2016 13:11:10 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <pubDate>Sun, 05 Jun 2016 13:17:23 -0400</pubDate>
+    <lastBuildDate>Sun, 05 Jun 2016 13:17:23 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>How To Lead a Technical Workshop</title>
+        <description>&lt;h1 id=&quot;how-to-lead-a-technical-workshop&quot;&gt;How To Lead a Technical Workshop&lt;/h1&gt;
+
+&lt;p&gt;Since we’ll be holding our second week-long &lt;a href=&quot;http://gcdigitalfellows.github.io/&quot;&gt;Digital Research Institute&lt;/a&gt; in June, I thought I’d put together a list of the lessons I’ve learned teaching technical workshops over the past two years. If you have more lessons in mind, drop me a line at &lt;a href=&quot;psmyth01https://twitter.com/psmyth01&quot;&gt;@psmyth01&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;focus&quot;&gt;Focus&lt;/h2&gt;
+
+&lt;p&gt;What specific skills or knowledge do you want your attendees to have when they walk out of your workshop? It’s often easy to have nebulous goals for your attendees, such as “become familiar with the command line” or “learn Python.” While it’s all right to promote your workshop with more general terms, the main event will go more smoothly if all steps taken in your workshop move toward a single, specific goal. Thus, “build a tiny Create-Read-Update-Delete app” or “remove duplicates from this data set” are better than “learn SQL” or “become familiar with JSON.” Students learn better when working toward concrete goals, and the sense of accomplishment that comes with achieving something specific encourages students to continue to learn after the workshop.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-assume&quot;&gt;Don’t assume&lt;/h2&gt;
+
+&lt;p&gt;Think back to a time before you learned the technical skill you’ll be teaching. What knowledge did tutorials and teachers assume, but that you didn’t have at the time?&lt;/p&gt;
+
+&lt;p&gt;There are many technical concepts that can seem simple or obvious after long exposure, but which take time and experience to fully understand. Experienced users tend to forget a time when they didn’t know about these concepts, and so often don’t give them enough time and attention in workshops. They include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the filesystem and file hierarchy&lt;/li&gt;
+  &lt;li&gt;file types and extensions&lt;/li&gt;
+  &lt;li&gt;use of a text editor&lt;/li&gt;
+  &lt;li&gt;the client-server model&lt;/li&gt;
+  &lt;li&gt;command line navigation&lt;/li&gt;
+  &lt;li&gt;cloning repositories&lt;/li&gt;
+  &lt;li&gt;environment identification (distinguishing between the bash prompt, nano, or a REPL)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unless you’re sure your attendees will be highly technical, don’t assume a full grasp of these concepts, and leave time to address them in your session.&lt;/p&gt;
+
+&lt;p&gt;** Avoid jargon&lt;/p&gt;
+
+&lt;p&gt;This is a corollary of “Don’t Assume,” but it’s worth saying this explicitly. In computer interaction and programming, it’s easy to fall into the specific language of the field. Terms like “argument,” “method,” and “array” are useful because they’re specific and descriptive. However, for those that don’t read technical documentation every day, they can impose a cognitive load, and for beginners they can be downright baffling. Fully explain any technical terms you use, and, if possible, repeat a shorthand definition the next few times you use the word. For example: “an argument—you know, something you pass IN to a function.”&lt;/p&gt;
+
+&lt;p&gt;** Use multimodal communication&lt;/p&gt;
+
+&lt;p&gt;“Multimodality” is a fancy word for getting information across using a number of media. In other words, don’t just put an instruction on a screen or say it out loud. Put it on the screen AND say it out loud AND put it on a handout AND put the handout online. Ideally, every communication you make should be iterated in three different places.&lt;/p&gt;
+
+&lt;p&gt;This can seem pretty extreme, but it will save you trouble in the long run and makes learning much easier for attendees. First, it’s very common for attendees to mishear, zone out, become distracted by a neighbor, or fall behind. By providing multiple means of viewing instructions, you mitigate these inevitable lapses in communication. Second, handouts and online materials remain available to students after your sessions. Finally, many attendees may have hearing, vision, or cognitive disabilities that make it difficult to follow information from a particular medium. By providing multiple channels of communication, you make your workshop more inclusive and accessible.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-unconventional&quot;&gt;Be unconventional&lt;/h2&gt;
+
+&lt;p&gt;Another facet of multimodality is using unconventional materials or media to impart difficult concepts. For example, Digital Fellow &lt;a href=&quot;https://digitalfellows.commons.gc.cuny.edu/?team=hannah-aizenman&quot;&gt;Hannah Aizenman&lt;/a&gt; uses poster paper and markers to have students create visualizations before using a computer. This allows students to think about methodology before getting bogged down in the details of a specific program or tool.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-less&quot;&gt;Do less&lt;/h2&gt;
+
+&lt;p&gt;You don’t need to get to every aspect of a tool or approach.&lt;/p&gt;
+
+&lt;p&gt;** Do more, but cheat
+** Get feedback
+## Know Your Audience&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 May 2016 00:00:00 -0400</pubDate>
+        <link>https://www.smythp.com/underrated_zotero/</link>
+        <guid isPermaLink="true">https://www.smythp.com/underrated_zotero/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Using Elpy with pyenv in Emacs</title>
@@ -120,7 +177,7 @@ M-x package-install RET elpy RET
 &lt;li&gt;“Periods should be inside quotation marks.”&lt;/li&gt;
 &lt;li&gt;“I found this section a little unclear. Could you elaborate?”&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;When encountering similar mistakes over dozens of papers, I tend to fall into patterns, using certain phrases and terms to point out and explain problems. After all, there are only so many ways one can indicate that book titles should be italicized, or that “alright” should be “all right.” This often means that I will write a phrase such as “Use a synonym to avoid repetition” in twenty separate papers, which is itself something of a repetitive exercise.&lt;/p&gt;
+&lt;p&gt;When encountering similar mistakes over dozens of papers, I tend to fall into patterns, using certain phrases and terms to point out and explain problems. After all, there are only so many ways one can indicate that book titles should be italicized, or that “alright” should be “all right.” This often means that I will write a phrase such as “Use a synonym to avoid repetition” in twenty separate papers, which is itself something of a repetitive exercise.&amp;lt;/span&amp;gt;&lt;/p&gt;
 &lt;p&gt;Because I receive, grade, and return papers electronically, I’ve found a method that alleviates some of the tedium of repeating stock phrases over and over. Text expanders are programs that automatically turn small snippets of text (such as “syn1”) to larger phrases (such as “Use a synonym to avoid repetition.”) By loading up a text expander with a library of frequently-used comments, a essay grader can substantially reduce the amount of typing necessary to leave a comment.&lt;/p&gt;
 &lt;p&gt;Using a text expander to aid in grading has some substantial advantages. Because leaving certain comments becomes easier, one is less tempted to leave cryptic marks (“?” or “!”) or simply underline text to indicate mistakes. While these corrective marks might seem clear to teachers, they are often baffling to students who might not be familiar with the underlying principles to which these marks refer. By freeing up effort usually spent on addressing common mistakes, one often finds it easier to comment on an essay more holistically, responding to the content of the paper rather than focusing exclusively on form.&lt;/p&gt;
 &lt;p&gt;For my own grading, the free version of the &lt;a href=&quot;http://www.phraseexpress.com/&quot;&gt;PhraseExpress&lt;/a&gt; text expander is more than adequate, although faster and more feature-laden expanders such as &lt;a href=&quot;http://lifehacker.com/238306/lifehacker-code-texter-windows&quot;&gt;Texter&lt;/a&gt; also exist. In Windows, after installing PhraseExpress, double click its icon in the system tray to bring it up. Hit File &amp;gt; New &amp;gt; Local phrase file to create a new set of phrases that can be backed up and transferred between computers. Then hit CTRL-N to create a new comment template. Type the full version of the comment in the “Phrase Content” box, then add a shortcut phrase (such as “syn1”) to the Autotext box. Hit OK, and repeat for all your frequently used comments. Remember that the short phrase you enter in Autotext should be something you would only type deliberately, or else you will trigger the text expansion automatically.&lt;/p&gt;
@@ -142,7 +199,7 @@ M-x package-install RET elpy RET
 		&lt;p&gt;I know, I know, you have a system. But here are eight reasons to go paperless and do your grading electronically.&lt;/p&gt;
 &lt;h3&gt;Leave a Paper Trail by Going Paperless&lt;/h3&gt;
 &lt;p&gt;By having students submit assignments via email, Dropbox, or Blackboard, you automatically have documentation indicating when (or if) students have turned in their work. This can head off many potential disputes and misunderstandings.&lt;/p&gt;
-&lt;h3&gt;Your Handwriting Is Terrible&lt;/h3&gt;
+&lt;h3&gt;Your Handwriting Is Terrible&amp;lt;/strong&amp;gt;&lt;/h3&gt;
 &lt;div id=&quot;attachment_38&quot; style=&quot;width: 310px;float: right;margin: 0 0 10px 10px;&quot;&gt;&lt;a href=&quot;http://www.digitalscholar.net/wp-content/uploads/2014/06/elder_fu.png&quot;&gt;&lt;img class=&quot;size-medium wp-image-38&quot; alt=&quot;Elder Futhark&quot; src=&quot;http://www.digitalscholar.net/wp-content/uploads/2014/06/elder_fu-300x102.png&quot; width=&quot;300&quot; height=&quot;102&quot; /&gt;&lt;/a&gt;&lt;center&gt;&lt;p class=&quot;small-text&quot; style=&quot;margin: 3px;&quot;&gt;If your writing starts looking like this, break out the keyboard.&lt;/p&gt;&lt;/center&gt;&lt;/div&gt;
 &lt;p&gt;You might pride yourself on your impeccable penmanship, but even &lt;a href=&quot;http://en.wikipedia.org/wiki/Wang_Xizhi&quot;&gt;Wang Xizhi&lt;/a&gt; might become indecipherable after marking up his 39th essay. Having a student approach you to clarify what you’ve written can be embarrassing, and some might not even bother to parse your chicken scratch.&lt;/p&gt;
 &lt;h3&gt;Take Control of Your Feedback&lt;/h3&gt;
